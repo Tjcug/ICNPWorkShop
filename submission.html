@@ -1,0 +1,115 @@
+﻿
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title> Networking BigData 2017 </title>
+
+    <link type="text/css" href="./css/mainstyle.css" rel="stylesheet">
+
+		<!-- 新 Bootstrap 核心 CSS 文件 -->
+		<link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+		<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+		 
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style type="text/css"></style><style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+    .en-markup-crop-options {
+        top: 18px !important;
+        left: 50% !important;
+        margin-left: -100px !important;
+        width: 200px !important;
+        border: 2px rgba(255,255,255,.38) solid !important;
+        border-radius: 4px !important;
+    }
+
+    .en-markup-crop-options div div:first-of-type {
+        margin-left: 0px !important;
+    }
+
+    </style>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-78434210-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+    <script language="javascript">
+        $(document).ready(function () {
+            var offesttop=$("#scroll").offset().top;
+            var menuYloc = 0;
+            $(window).scroll(function () {
+                var top=$(window).scrollTop();
+                if(top<372)
+                    menuYloc=offesttop-top;
+                var offsetTop = menuYloc + top  + "px";
+                $("#scroll").animate({ top: offsetTop }, { duration: 600, queue: false });
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+<div class="headtitle">
+     <img src="./images/toronto.png" height="372" width="1000"><br/>
+    2017 International Workshop on Networking BigData Oriented Systems (NetBOS)
+</div>
+
+<div class="headtitle2">
+    October 10~13, 2017 Toronto, Canada
+</div>
+<div class="page-content">
+    <div class="wrapper">
+        <div class="content">
+            <table>
+                <tbody>
+                <tr>
+                    <td width="20%" valign="top">
+                        <div class="sidelinks">
+                            <div id="scroll">
+                                <ul >
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="index.html#overview">Overview</a></li>
+                                    <!--<li><a href="index.html#program">Program</a></li>-->
+                                    <li><a href="index.html#topics-of-interest">Topics of Interest</a></li>
+                                    <li><a href="cfp.html">Call for papers</a></li>
+                                    <li><a href="index.html#important-dates">Important dates</a></li>
+                                    <li><a href="index.html#organizers">Organizers</a></li>
+                                    <li><a href="index.html#submission-guidelines">Submission Guidelines</a></li>
+                                    <li><a href="http://iqua.ece.toronto.edu/icnp17/index.html">ICNP 2017</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </td>
+                    <td width="80%" valign="top">
+                        <div class="textualcontent">
+                            <!--<img src="images/banner2.jpg" width="500", height="200" style="float: right; margin: 55px 5px 0px 5px;" />-->
+                            	<!--Call For Papers!!!-->
+														<h2 id="call-for-papers"><strong>Call for papers</strong></h2>
+														
+														<p>Click <a href="pdf/cfp-netbos2017.pdf">here</a> for The PDF Version. </p>
+														
+                          	<br/>
+                          	<br/>
+                          	<br/>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>

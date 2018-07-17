@@ -1,0 +1,313 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title> Networking BigData 2017 </title>
+
+    <link type="text/css" href="./css/mainstyle.css" rel="stylesheet">
+
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style type="text/css"></style><style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+    .en-markup-crop-options {
+        top: 18px !important;
+        left: 50% !important;
+        margin-left: -100px !important;
+        width: 200px !important;
+        border: 2px rgba(255,255,255,.38) solid !important;
+        border-radius: 4px !important;
+    }
+
+    .en-markup-crop-options div div:first-of-type {
+        margin-left: 0px !important;
+    }
+
+    </style>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-78434210-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+    <script language="javascript">
+        $(document).ready(function () {
+            var offesttop=$("#scroll").offset().top;
+            var menuYloc = 0;
+            $(window).scroll(function () {
+                var top=$(window).scrollTop();
+                if(top<372)
+                    menuYloc=offesttop-top;
+                var offsetTop = menuYloc + top  + "px";
+                $("#scroll").animate({ top: offsetTop }, { duration: 600, queue: false });
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+<div class="headtitle">
+     <img src="./images/toronto.png" height="372" width="1000"><br/>
+    2017 International Workshop on Networking BigData Oriented Systems (NetBOS)
+</div>
+
+<div class="headtitle2">
+    October 10~13, 2017 Toronto, Canada
+</div>
+<div class="page-content">
+    <div class="wrapper">
+        <div class="content">
+            <table>
+                <tbody>
+                <tr>
+                    <td width="20%" valign="top">
+                        <div class="sidelinks">
+                            <div id="scroll">
+                                <ul >
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="index.html#overview">Overview</a></li>
+                                    <!--<li><a href="index.html#program">Program</a></li>-->
+                                    <li><a href="index.html#topics-of-interest">Topics of Interest</a></li>
+                                    <li><a href="index.html#accepted-papers">Accepted Papers</a></li>
+                                    <li><a href="index.html#call-for-papers">Call for Papers</a></li>
+                                    <li><a href="index.html#important-dates">Important Dates</a></li>
+                                    <li><a href="index.html#organizers">Organizers</a></li>
+                                    <li><a href="index.html#submission-guidelines">Submission Guidelines</a></li>
+                                    <li><a href="index.html#camera-ready">Instructions for Camera-ready</a></li>
+                                    <li><a href="http://iqua.ece.toronto.edu/icnp17/registration.html">Registration</a></li>
+                                    <li><a href="http://iqua.ece.toronto.edu/icnp17/grants.html">Travel Grant Application</a></li>
+                                    <li><a href="http://iqua.ece.toronto.edu/icnp17/index.html">ICNP 2017</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </td>
+                    <td width="80%" valign="top">
+                        <div class="textualcontent">
+                            <!--<img src="images/banner2.jpg" width="500", height="200" style="float: right; margin: 55px 5px 0px 5px;" />-->
+
+                            <h2 id="overview"><strong>Overview</strong></h2>
+                            <p>BigData oriented processing systems, such as Hadoop, Spark, Storm, PowerGraph etc. are widely adopted by the industry because they offer good scalability, high performance, and high resource efficiency to provide infrastructures for BigData applications. The 2017 International Workshop on Networking BigData Oriented Systems (in conjunction with ICNP 2017) provides the researchers with an outstanding opportunity for presenting their latest work on the issues in all aspects of BigData Oriented Systems (processing, networking, storage, etc.)</p>
+                            <!--<h2 id="program">Program</h2>-->
+
+                            <!--&lt;!&ndash;<p><a href="program.html">Click to enter</a></p>&ndash;&gt;-->
+
+                            <!--<p>TBA</p>-->
+
+                            <h2 id="topics-of-interest"><strong>Topics of Interest</strong></h2>
+
+                            <p>Topics of interest include, but are not limited to:</p>
+
+                            <ul>
+                                <li>Measurement of network usage pattern of BigData systems</li>
+                                <li>Networking challenges with new virtualization technologies (i.e, Container, NFV) in BigData systems</li>
+                                <li>Opportunities of new networking options (e.g., RDMA) in BigData system</li>
+                                <li>Application layer networking protocols for BigData systems</li>
+                                <li>In-rack BigData systems with consolidated compute/network/storage design</li>
+                                <li>Networking challenges for new storage technologies (I.e, NVMe over Fabric) in BigData systems</li>
+                                <li>Application driven networks</li>
+                                <li>Datacenter networking challenge for BigData</li>
+                                <li>WAN networking challenge for BigData</li>
+                                <li>Parallel and Distributed graph processing</li>
+                                <li>Distributed real-time stream processing systems</li>
+                                <li>Incremental  graph computations</li>
+                                <li>Cloud storage systems</li>
+                                <li>Data deduplication</li>
+                                <li>Delta-based BigData storage systems</li>
+                                <li>Fault Tolerance in BigData systems</li>
+                                <li>Large-scale BigData application</li>
+																<li>Security of BigData systems</li>
+                            </ul>
+                            
+
+                            <!--Accepted Papers!!!-->
+                            <h2 id="accepted-papers"><strong>Accepted Papers</strong></h2>
+													
+                                <p><strong>6. SocialGate: Managing Large-Scale Social Data on Home Gateways</strong> <br />
+				David Koll, Dieter Lechler, Xiaoming Fu (University of Goettingen)</p>
+
+                                <p><strong>7. Cotask Scheduling in Cloud Computing</strong> <br />
+				Yangming Zhao (University of Electronic Science and Technology of China), Shouxi Luo (Southwest  Jiaotong University), Yi Wang (Huawei Technologies Co., Ltd.), Sheng Wang (University of Electronic Science and Technology of China)</p>
+
+                                <p><strong>10. When Creek Meets River: Exploiting High-Bandwidth Circuit Switch in Scheduling Multicast Data</strong> <br />
+				Xiaoye Steven Sun, T. S. Eugene Ng (Rice University)</p>
+
+                                <p><strong>11. GSC Greedy Shard Caching Algorithm for Improved IO Efficiency in GraphChi</strong> <br />
+				Dagang Li (Peking University; Peking University Shenzhen Graduate School), Zehua Zheng (Peking University)</p>
+
+                                <p><strong>12. Impacts of Task Placement and Bandwidth Allocation on Stream Analytics</strong> <br />
+				Walid A. Y. Aljoby (National University of Singapore; Illinois at Singapore Pte. Ltd.), Tom Z. J. Fu (National University of Singapore), Richard T. B. Ma (National University of Singapore; Illinois at Singapore Pte. Ltd.)</p>
+
+
+                            <!--Call For Papers!!!-->
+                            <h2 id="call-for-papers"><strong>Call for Papers</strong></h2>
+														
+														<p>Click <a href="pdf/cfp-netbos2017.pdf">here</a> for The PDF Version. </p>
+														
+                            <!--DO IT !!!-->
+                            <h2 id="important-dates"><strong>Important Dates</strong></h2>
+
+                            <ul>
+                                <li><strong>Paper submission:			<s>August 1st, 2017 (23:59 p.m. EDT)</s> August 5th, 2017 (23:59 p.m. EDT) (firm deadline, no more extensions)</strong></li>
+                                <li>Paper notification: 	<s>August 22nd, 2017</s> August 24th, 2017</li>
+                                <li>Camera ready: 				September 1st, 2017</li>
+                            </ul>
+                            
+                            <h2 id="organizers"><strong>Organizers</strong></h2>
+			
+			    								 	<p>Steering Committee Chairs:</p>
+			    								 
+   			   								 	<ul>
+                                <li>Jon Crowcroft, University of Cambridge, UK</li>
+                                <li>David Meyer, Brocade Communications, USA</li>
+                                <li>K. K. Ramakrishnan, University of California, Riverside, USA</li>
+																<li>Nicholas Zhang, Huawei Technologies, China</li>
+                            </ul>
+
+			   									  <p>General Chairs:</p>
+
+			    									<ul>
+																<li>Hai Jin, Huazhong University of Science and Technology, China</li>
+																<li>Zhili Zhang, University of Minnesota, USA</li>
+			    									</ul>
+
+                            <p>Program Committee Chairs:</p>
+
+                            <ul>
+                                <li>Chen Tian, Nanjing University, China</li>
+                                <li>Hanhua Chen, Huazhong University of Science and Technology, China</li>
+                            </ul>
+
+                            <p>Program Committee: (continuously being updated)</p>
+
+                            <ul>
+																<li>Yungang Bao, Institute of Computing Technology, Chinese Academy of Sciences, China</li>
+                                <li>Marco Canini, King Abdullah University of Science and Technology, Saudi Arabia</li>
+                                <li>Haibo Chen, Shanghai Jiao Tong University, China</li>
+                                <li>Bin Cheng, NEC Laboratories Europe, Germany</li>
+                                <li>Yong Cui, Tsinghua University, China</li>
+                                <li>Deke Guo, National University of Defense Technology, China</li>
+                                <li>Bingsheng He, National University of Singapore, Singapore</li>
+                                <li>Chengchen Hu, Xi'an Jiaotong University, China</li>
+                                <li>Chunming Hu, Beihang University, China</li>
+                                <li>Yu Hua, Huazhong University of Science and Technology, China</li>
+                                <li>Shadi Ibrahim, Inria, France </li>
+                                <li>David Koll, University of Goettingen, Germany</li>
+                                <li>Wujun Li, Nanjing University, China</li>
+                                <li>Zhenhua Li, Tsinghua University, China</li>
+                                <li>Fangming Liu, Huazhong University of Science and Technology, China</li>
+                                <li>Hongqiang Liu, Microsoft Research, USA</li>
+                                <li>Yingwei Luo, Peking University, China</li>
+                                <li>Stephan Sigg, Aalto University, Finland</li>
+                                <li>Qian Wang, Wuhan University, China</li>
+                                <li>Jidong Zhai, Tsinghua University, China</li>
+                                <li>Fan Zhang, IBM Watson Group, USA</li>
+                                <li>Yiming Zhang, National University of Defense Technology, China</li>
+                                <li>Yongluan Zhou, University of Copenhagen, Denmark</li>
+                            </ul>
+
+														<!--Submission Guidelines!!!-->
+														<h2 id="submission-guidelines"><strong>Submission Guidelines</strong></h2>
+														<p>Submission Link: <a href="https://easychair.org/conferences/?conf=netbos2017">https://easychair.org/conferences/?conf=netbos2017 </a></p>
+                          	<p>Submitted papers must be no longer than 6 pages including all content and references. All papers must be formatted for printing on US LETTER (8.5" by 11") size paper and must adhere to the <a href="http://www.ieee.org/conferences_events/conferences/publishing/templates.html">IEEE formatting requirements </a>(templates available here: <a href="templates/Templates.zip">Templates.zip</a>). All submitted manuscripts will be peer-reviewed by the program committee members. At least one author of all the accepted paper should register and give a presentation in the conference.</p>
+
+
+
+                            <!--Camera Ready!!!-->
+                            <h2 id="camera-ready"><strong>Instructions for Camera-ready</strong></h2>
+
+<p>+++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
+Congratulations again on your accepted papers. Here are the instructions for camera-ready submission.</p>
+
+<p><strong>===General Steps===</strong></p>
+
+<ul>
+	
+	<li>The signed copyright release form is due by <strong>Saturday 02 Sep 2017</strong>. You will receive a separate email sent by IEEE, with your unique log-in, which asks you to complete the eCopyright Form (eCF) online. Please transfer the copyright first BEFORE submitting your final versions.</li>
+	<li>Revise your manuscript to address the comments of the reviewers.</li>
+	<li>The final manuscript (in PDF only) should be submitted to the following website by <strong>Saturday 02 Sep 2017</strong>:<br>
+	
+		<a href="http://iqua.ece.toronto.edu/icnp17/camera">http://iqua.ece.toronto.edu/icnp17/camera</a><br>
+	
+	Note that this is a separate website from the one used to collect papers for review. You must register a new account to use the camera-ready submission site.</li>
+	<li>You MUST make sure your paper is IEEE Xplore-Compatible before submission. Please see the instructions below.</li>
+	<li>Add the copyright notice to the bottom of the first page of your paper.
+		<ul>
+		<li>For papers in which all authors are employed by the US government, the copyright notice is: <strong>U.S. Government work not protected by U.S. copyright</strong></li>
+		<li>For papers in which all authors are employed by a Crown government (UK, Canada, and Australia), the copyright notice is: <strong>978-1-5090-6501-1/17/$31.00 &copy;2017 Crown</strong></li>
+		<li>For papers in which all authors are employed by the European Union, the copyright notice is: <strong>978-1-5090-6501-1/17/$31.00 &copy;2017 European Union</strong></li>
+		<li>For all other papers the copyright notice is: <strong>978-1-5090-6501-1/17/$31.00 &copy;2017 IEEE</strong></li>
+		</ul>
+	</li>
+	</ul>
+
+<p><strong>===IEEE Xplore-Compatibility===</p></strong>
+
+<ul>
+	<li>Your paper MUST be IEEE Xplore-Compatible before submission. You can use IEEE PDF eXpress in two ways:
+	<ul>
+		<li>To verify whether your final manuscript PDF is compatible to IEEE Xplore.</li>
+		<li>To generate an IEEE Xplore-Compatible PDF using your manuscript source files (e.g. Microsoft Word, LaTeX DVI and EPS files).</li>
+	</ul>
+	</li>
+	<li>To access IEEE PDF eXpress:
+	<ul>
+		<li>Go to <a href="http://www.pdf-express.org/">http://www.pdf-express.org/</a></li>
+		<li>Use the Conference ID: 41313X</li>
+		<li>Follow the instructions in the website to register an account if you are a new user. If you are an existing user, you can reuse your account</li>
+		<li>If you have verified your PDF to be IEEE Xplore-Compatible or have successfully generated an IEEE Xplore-Compatible PDF, you can then proceed to submit the IEEE Xplore-Compatible PDF to the camera-ready submission site.</li>
+		<li>If your PDF is not compatible or the PDF generation fails, you must fix the errors. This may take a few interactions. Please begin this process as soon as possible. Otherwise, the paper cannot be accepted for publication.</li>
+	</ul>
+</ul>
+
+<p>		IMPORTANT: Any changes made to a PDF after IEEE PDF eXpress conversion or PDF Checking may invalidate Xplore compatibility. This includes headers, page numbers, copyright notice, watermarks, etc. If any of these elements are desired, they should be added to the document before a PDF is created.</p>
+
+<p><strong>===Paper Formatting===</p></strong>
+
+<p>The final version of workshop papers of ICNP 2017 must have no more than six (6) pages in double-column format with standard margins and at least a 10 point font. This length includes everything: figures, tables, references, appendices and so on. Papers that exceed 6 pages will not be accepted for publication.</p>
+
+<p>All papers must be formatted for printing on US LETTER (8.5" by 11") and must adhere to the IEEE formatting requirements. For LaTeX users, please use the &quot;conference&quot; option. The template should be used as is. Papers that modify the template, e.g., by picking narrower line-spacing or margins than what the template defines, will be rejected for publication.</p>
+
+<p>Papers must be submitted in PDF format, without including any non-standard fonts. We must be able to display and print your camera-ready manuscript exactly as we receive it and using only standard tools and postscript printers. Therefore, we strongly suggest that you use only standard fonts. Make sure that the paper, including the figures, is readable on a black-and-white printout.</p>
+
+<p><strong>===Author List and Paper Titles===</p></strong>
+	<p> The author list MUST remain the same as when the paper was submitted for review, and any changes in the author list or title is forbidden without prior written permission from the TPC Co-Chairs.<br>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</p>
+
+
+                          	
+
+                            <!--Registration!!!-->
+                            <h2 id="registration"><strong>Registration</strong></h2>
+				<p>See <a href="http://iqua.ece.toronto.edu/icnp17/registration.html">http://iqua.ece.toronto.edu/icnp17/registration.html</a>.</p>
+
+                            <!--Travel Grant Application!!!-->
+                            <h2 id="travelgrant"><strong>Travel Grant Application</strong></h2>
+				<p>See <a href="http://iqua.ece.toronto.edu/icnp17/grants.html">http://iqua.ece.toronto.edu/icnp17/grants.html</a>.</p>                          	
+                          	<br/>
+                          	<br/>
+                          	<br/>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>
